@@ -5,4 +5,4 @@ Notes for Code 301
 
 - [jQuery Overview](jQueryOverview.md) (_Pre-Work_)
 - [jQuery Attributes](jqueryattributes.md) (_Pre-Work_)
-- [jQuery Manipulating CSS and The DOM](jQueryCSSandDOM.md) (_Pre-Work_)
+- [jQuery Manipulating CSS, The DOM, and Event Handling](jQueryCSSandDOM.md) (_Pre-Work_)

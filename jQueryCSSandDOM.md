@@ -47,4 +47,33 @@ For more traversal methods, click [here](jquerydomtraversal.PNG) for an image fr
 - The `empty()` method
     - used to remove the child elements of the selected element(s)
 
+## Event Handling
+
+### The Basics
+
+There are a number of specific jQuery methods designed to handle events in a shorter and more efficient way. For a list of those from Sololearn, click [here](jqueryeventhandling.PNG).
+
+Another way to handle events in jQuery is by using the `on()` method, and naming the event in the parameter. For example: 
+
+```js
+$("p").on("click", function() {
+    alert("clicked");
+    });
+```
+
+You can remove event handlers using the `off()` method.
+
+### The Object
+
+The handler functions can receive event _objects_, which contain properties and methods related to the event, as an argument to the function. Some of those could be:
+- `page X, pageY` | the mouse position (X and Y coordinates) at the time the event occurred, relative to the top left of the page
+- `type` | the type of event (like 'click')
+- `which` | the button or key that was pressed
+- `data` | any data that was passed in when the event was bound
+- `target` | the DOM element that initiated the event
+- `preventDefault()` | prevents the default action of the event
+- `stopPropagation()` | stop the event from bubbling up to other elements
+
+The events can also be triggered without the user actually triggering them by using the `trigger()` method.
+
 [Go to Home](README.md)
